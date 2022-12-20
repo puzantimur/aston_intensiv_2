@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson1.Task11">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/toast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:backgroundTint="@color/gray"
+        android:text="@string/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_toast" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="@string/count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_zero" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/task_1_2_tv_margin_horizontal"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="@color/teal_700"
+        android:textSize="@dimen/task_1_2_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_zero"
+        app:layout_constraintTop_toTopOf="@+id/button_toast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

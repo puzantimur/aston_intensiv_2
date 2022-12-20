@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_activity_padding">30dp</dimen>
+    <dimen name="task_1_1_text_view_margin_top">200dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="task_1_2_text_view_text_size">140sp</dimen>
+    <dimen name="task_1_3_horizontal_margin">16dp</dimen>
+    <dimen name="task_1_3_vertical_margin">16dp</dimen>
+    <dimen name="task_1_3_padding_regular">10dp</dimen>
+    <dimen name="task_1_3_line_spacing">5sp</dimen>
+    <dimen name="article_subheading_width">100dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="task_2_1_second_screen_text_view_size">40sp</dimen>
+    <dimen name="task_2_1_first_screen_default_margin">8dp</dimen>
+    <dimen name="task_2_1_first_screen_text_size">160sp</dimen>
+    <dimen name="task_2_2_text_view_size">100sp</dimen>
+    <dimen name="task_2_3_padding_linear">16dp</dimen>
+    <dimen name="task_2_3_margin_bottom_button">24dp</dimen>
+    <dimen name="margin_horizontal_codding_challenge_22">16dp</dimen>
+    <dimen name="purchases_size_coding_challenge_22">24sp</dimen>
+    <dimen name="codding_challenge_2_2_padding_hor">16dp</dimen>
+    <dimen name="task_1_2_text_size">140sp</dimen>
+    <dimen name="task_1_2_tv_margin_horizontal">8dp</dimen>
+    <dimen name="task_2_2_edit_text_width">200dp</dimen>
+    <dimen name="coding_challenge_2_2_button_width">200dp</dimen>
+</resources>
